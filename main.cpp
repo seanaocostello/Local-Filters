@@ -36,7 +36,6 @@ int repeat_times = 1;
 #include "LCF.h"
 #include "PQF.h"
 #include "LCF10.h"
-#include "CPQF.h"
 #else
 
 int repeat_times = 11;
