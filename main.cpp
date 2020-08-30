@@ -25,10 +25,6 @@
 #include <random>
 #include <cmath>
 
-//#include "/Users/costello/Downloads/Vacuum-Filter-master/vacuum.h"
-//#include "/Users/costello/Downloads/Vacuum-Filter-master/ModifiedCuckooFilter/src/cuckoofilter.h"
-
-
 using namespace std;
 
 
@@ -90,7 +86,6 @@ int main(int argc, const char * argv[]) {
         vector<pair<double,double> > false_positive_pvf12;
         vector<pair<double,double> > false_positive_vf13;
         vector<pair<double,double> > false_positive_pvf13;
-        /*
     cout << "LCF " << endl;
         
         for(auto i : lfs){
@@ -160,10 +155,9 @@ int main(int argc, const char * argv[]) {
                 run_times_pqf.clear();
                 
             }}
-         
-         */
-    
-    /*
+      
+  
+  
        cout << "LCF10 lookup  " << endl;
     for(auto i : lfs){
         for (int y = 0; y < 1; y++){
@@ -196,9 +190,7 @@ int main(int argc, const char * argv[]) {
             cout <<  "   ( " <<  run_times_lcf10[0].first   << " , " <<   run_times_lcf10[0].second  <<  " ) " << endl;
             run_times_lcf10.clear();
         }}
-    
-    */
-    
+        
     //  I should probably add insert and delete ..
     cout << "LCF insert " << endl;
     run_times_lcf.clear();
